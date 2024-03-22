@@ -1,0 +1,5 @@
+import math
+
+def find_next_square(sq):
+    n = math.sqrt(sq) + 1
+    return n*n if n == int(n) else -1
