@@ -1,0 +1,8 @@
+def maskify(cc):
+    masked = ''
+    lastFour = cc[-4:]
+ 
+    for i in range(len(cc) - 4):
+        masked += '#'
+ 
+    return masked + lastFour
