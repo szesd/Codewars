@@ -1,0 +1,3 @@
+def max_ball(v0):
+  v = v0 * 1000 * 10 / 3600;
+  return round(v / 9.81) 
